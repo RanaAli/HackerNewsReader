@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_margin"
+    android:background="@drawable/selector_item"
+    android:orientation="vertical"
+    android:padding="@dimen/lv_row_padding"
+    tools:ignore="UseCompoundDrawables"
+    >
+
+  <TextView
+      android:id="@+id/tv_coment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
+      android:gravity="center_vertical"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/lv_detail_row_text_size"
+      />
+
+  <TextView
+      android:id="@+id/tv_repy"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/layout_margin"
+      android:ellipsize="end"
+      android:background="@android:color/holo_blue_dark"
+      android:text="reply"
+      android:gravity="center_vertical"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/lv_detail_row_text_size"
+      />
+
+</LinearLayout>
